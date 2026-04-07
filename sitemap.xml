@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://moru.rs/</loc>
+    </url>
+    <url>
+        <loc>https://moru.rs/blog/</loc>
+    </url>
+    <url>
+        <loc>https://moru.rs/blog/hello-world/</loc>
+        <lastmod>2026-04-07</lastmod>
+    </url>
+    <url>
+        <loc>https://moru.rs/blog/page/1/</loc>
+    </url>
+</urlset>
