@@ -1,0 +1,14 @@
+base_url = "https://moru.rs"
+title = "Moru (모루)"
+description = "The anvil where software is forged."
+default_language = "en"
+compile_sass = false
+minify_html = true
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+
+[extra]
+author = "hiking90"
+github_url = "https://github.com/hiking90"

@@ -138,6 +138,84 @@ footer {
     font-size: 0.85rem;
 }
 
+/* Blog listing */
+.blog-summary {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-summary h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.blog-summary time {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.blog-summary p {
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+/* Blog post */
+.blog-post header {
+    margin-bottom: 2rem;
+}
+
+.blog-post header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.blog-post header time {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.blog-content {
+    line-height: 1.8;
+}
+
+.blog-content h2,
+.blog-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-content p {
+    margin-bottom: 1rem;
+}
+
+.blog-content pre {
+    background: #2b303b;
+    color: #c0c5ce;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+.blog-content code {
+    font-size: 0.9em;
+}
+
+.blog-content p code {
+    background: #f0f0f0;
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     #hero h1 {
